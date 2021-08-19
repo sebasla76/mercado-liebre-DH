@@ -281,6 +281,10 @@ footer{
     font-weight: bolder;
 }
 
+.copyright-text{
+    margin-left: 10px;
+    margin-bottom:10px;
+}
 
 @media (min-width: 480px){
 
@@ -439,6 +443,7 @@ footer{
         margin:20px auto;
         width: 80%;
         display:none;
+       
     }
     
     .form-login input{
@@ -449,6 +454,7 @@ footer{
         font-size: 10px; 
         border:none;
         border-radius: 6px;
+        max-width: 750px;
     }
     
     .form-login button{
@@ -462,7 +468,10 @@ footer{
         width: 80%;
         border:none;
         border-radius: 6px;
+        max-width: 750px;
     }
+
+  
     
     .form-login button:hover {
         background-color:#0022AA;  
@@ -476,56 +485,57 @@ footer{
         width:50%;
     }
 
-   .footer-flex{
-       display: flex;
-       justify-content: space-between;
-       flex-wrap: nowrap;
-       margin-bottom: 30px;
-       padding: 0 15px;
-   }
-
-   #footer-text{
-       margin-left: 5px;;
-       margin-right: 5px;
-       text-align:center;
-       margin-bottom: 5px;
-       margin-top: 0%;
-   }
-
-   .footer-wrap p{
-       font-size: 10px;
-   }
-
-   .footer-wrap{
-        width: 33%;
-
-   }
-
-   #icon-style{
-    color:#1259c3;
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 0px;
-    
-   }
    
-   #icon-style:hover {
-    color:rgb(4, 67, 87);  
-}
 
    .login-height{
     height: 300px;
    
-}
+    }
 
 .shiping-icon{
     transition: transform ease-in-out 1s;
-}
+    }
 
 .wraper:hover .shiping-icon{
     transform: rotate(360deg);
-}
+    }
 
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    }
+
+#footer-text{
+    margin-left: 5px;;
+    margin-right: 5px;
+    text-align:center;
+    margin-bottom: 5px;
+    margin-top: 0%;
+    }
+
+.footer-wrap p{
+    font-size: 10px;
+    }
+
+.footer-wrap{
+     width: 33%;
+
+    }
+
+#icon-style{
+ color:#1259c3;
+ font-size: 1.5em;
+ text-align: center;
+ margin-bottom: 0px;
+ 
+    }
+
+#icon-style:hover {
+ color:rgb(4, 67, 87);  
+    }
 
 
 }
