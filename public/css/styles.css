@@ -376,7 +376,7 @@ footer{
     width: 70%;
     display:block;
     padding: 10px 0;
-    font-size: 10px; 
+    font-size: 14px; 
     border:none;
     border-radius: 6px;
     max-width: 750px;
@@ -387,13 +387,14 @@ footer{
     width: 70%;
     display:block;
     padding: 10px 0;
-    font-size: 10px; 
+    font-size: 14px; 
     background-color:#1259c3;
     color: white;
     border:none;
     border-radius: 6px;
     max-width: 750px;
 }
+
 
 
 
@@ -426,7 +427,7 @@ footer{
     }
 
     .ml-main-nav{
-        font-size: 12px;
+        font-size: 14px;
         
     }
 
